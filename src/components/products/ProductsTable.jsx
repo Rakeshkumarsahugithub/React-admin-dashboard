@@ -71,17 +71,17 @@ const ProductsTable = () => {
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.2 }}
 		>
-			<div className='flex justify-between items-center mb-6'>
+			<div className='flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 mb-6'>
 				<h2 className='text-xl font-semibold text-slate-800 dark:text-gray-100'>Product List</h2>
-				<div className='relative'>
+				<div className='relative w-full max-w-xs sm:max-w-sm'>
 					<input
 						type='text'
 						placeholder='Search products...'
-						className='bg-slate-100 dark:bg-gray-700 text-slate-800 dark:text-white placeholder-slate-500 dark:placeholder-gray-400 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 border border-slate-200 dark:border-gray-600'
+						className='w-full bg-slate-100 dark:bg-gray-700 text-slate-800 dark:text-white placeholder-slate-500 dark:placeholder-gray-400 rounded-md pl-8 pr-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 border border-slate-200 dark:border-gray-600 sm:rounded-lg sm:pl-10 sm:pr-4 sm:py-2 sm:text-base'
 						onChange={handleSearch}
 						value={searchTerm}
 					/>
-					<Search className='absolute left-3 top-2.5 text-slate-500 dark:text-gray-400' size={18} />
+					<Search className='absolute left-2 top-1.5 text-slate-500 dark:text-gray-400 sm:left-3 sm:top-2.5' size={16} />
 				</div>
 			</div>
 
@@ -154,3 +154,4 @@ const ProductsTable = () => {
 	);
 };
 export default ProductsTable;
+

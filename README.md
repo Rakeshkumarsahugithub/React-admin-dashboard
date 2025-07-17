@@ -3,6 +3,13 @@
 A modern, fully responsive admin dashboard built with React, featuring a stunning 3D glassmorphism design, animated aurora backgrounds, and a premium user experience. This dashboard is perfect for analytics, user management, sales, and more—optimized for both desktop and mobile.
 
 ---
+## 📸 Screenshots & GIFs
+<img width="2786" height="1556" alt="image" src="https://github.com/user-attachments/assets/0362abea-186c-4462-9f3b-504a814d9430" />
+
+<img width="2799" height="1517" alt="image" src="https://github.com/user-attachments/assets/7aa93d83-d4ba-470c-9305-0688900c103d" />
+<img width="2788" height="1561" alt="image" src="https://github.com/user-attachments/assets/dadb9718-478e-47ce-9f06-b7a9940dee0e" />
+<img width="2786" height="1568" alt="image" src="https://github.com/user-attachments/assets/759249f4-4cfe-4757-b0a2-6cc8e10671e9" />
+---
 
 ## 🌟 What Makes It Unique?
 - **3D Glassmorphism:** All cards, modals, and key UI elements use layered glass effects, backdrop blur, and deep shadows for a premium, tactile feel.
@@ -108,15 +115,6 @@ A modern, fully responsive admin dashboard built with React, featuring a stunnin
 - **Code Splitting & Lazy Loading:**  Only loads what’s needed for each page.
 - **Bundle Optimization:**  Uses modern JS, tree-shaking, and optimized dependencies.
 - **Linting & Formatting:**  ESLint and Prettier for code quality and consistency.
-
----
-
-## 📸 Screenshots & GIFs
-
-- ![Dashboard Overview](/public/screenshot-for-readme-1.png)
-- ![Analytics Dashboard](/public/screenshot-for-readme-2.png)
-- ![User Management](/public/screenshot-for-readme-3.png)
-- *(Add GIFs of sidebar animation, theme toggle, and mobile view for extra wow!)*
 
 ---
 

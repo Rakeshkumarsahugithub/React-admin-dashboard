@@ -1,6 +1,6 @@
 # React Admin Dashboard
 
-A modern, fully responsive admin dashboard built with React, featuring a stunning 3D glassmorphism design, animated aurora backgrounds, and a premium user experience. This dashboard is perfect for analytics, user management, sales, and more—optimized for both desktop and mobile.
+A modern, fully responsive admin dashboard built with React, featuring a stunning 3D glassmorphism design, animated aurora backgrounds, and a premium user experience. This dashboard is perfect for analytics, user management, sales, and more—optimized for both desktop and mobile.- [View Private Repo Live Demo](https://react-admin-dashboard-rakeshkumarsahugithubs-projects.vercel.app) 
 
 ---
 ## 📸 Screenshots & GIFs

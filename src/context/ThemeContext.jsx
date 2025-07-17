@@ -10,17 +10,27 @@ export const useTheme = () => {
   return context;
 };
 
-export const ThemeProvider = ({ children }) => {
-  const [isDarkMode, setIsDarkMode] = useState(() => {
-    // Check localStorage for saved theme preference
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      return savedTheme === 'dark';
-    }
-    // Default to dark mode if no preference is saved
-    return true;
-  });
+// export const ThemeProvider = ({ children }) => {
+//   const [isDarkMode, setIsDarkMode] = useState(() => {
+//     // Check localStorage for saved theme preference
+//     const savedTheme = localStorage.getItem('theme');
+//     if (savedTheme) {
+//       return savedTheme === 'dark';
+//     }
+//     // Default to dark mode if no preference is saved
+//     return true;
+//   });
 
+
+const [isDarkMode, setIsDarkMode] = useState(() => {
+  // Check localStorage for saved theme preference
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    return savedTheme === 'dark';
+  }
+  // Default to light mode if no preference is saved
+  return false;
+});
   useEffect(() => {
     // Save theme preference to localStorage
     localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
